@@ -14,10 +14,10 @@ const invalidKeys = 'F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12 Escape Tab CapsLock 
 const text_list = ['this is the re mountain typing test made by caleb xu and timothy mai, this is truly a remarkable creation. Mr shelby is the best teacher ', 
   'JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. Over 97% of websites use JavaScript on the client side for web page behavior, often incorporating third-party libraries.',
   'HTML (HyperText Markup Language) is the code that is used to structure a web page and its content. For example, content could be structured within a set of paragraphs, a list of bulleted points, or using images and data tables.',
-  '3',
-  '4',
-  '5',
-  '6'];
+  'CSS is the language we use to style an HTML document. CSS describes how HTML elements should be displayed.',
+  'Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.',
+  'Python is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.',
+  'PHP is a general-purpose scripting language geared toward web development. It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1994.'];
 let text = text_list[Math.floor(Math.random() * 7)];
 //let text = text_list[1];
 const textArr = text.split('');
