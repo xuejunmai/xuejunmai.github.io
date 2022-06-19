@@ -34,6 +34,7 @@ let currentPos = 0;
 let backspaceNeeded = false;
 let currentTime = 0;
 let repeat;
+textContainer.focus();
 document.addEventListener('keydown', event => {
     if (event.key === ' ') {
         event.preventDefault();
